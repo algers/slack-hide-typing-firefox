@@ -1,12 +1,12 @@
 
-(function(){
+(function () {
   'use strict';
   const inject = function () {
     // Necessary because extensions cannot directly access the page's global variables.
     const scr = document.createElement('script');
     const swapWebSocketImplStr = swapWebSocketImpl.toString();
     scr.textContent = '(function() {' +
-         swapWebSocketImplStr + 
+      swapWebSocketImplStr +
       '  swapWebSocketImpl();' +
       '})();';
     (document.head || document.documentElement).appendChild(scr);
@@ -24,7 +24,7 @@
         if (parsed.type === 'typing') {
           return;
         }
-      } catch(ex) {}
+      } catch (ex) { }
       return send.apply(this, args);
     };
   }
