@@ -3,7 +3,7 @@ Firefox extension to prevent Slack from sending a typing status to channels and 
 
 ## Installation
 
-The simpliest way to install the extension is to get it from the Firefox web store (URL TBD). Alternatively, you can clone this repository and load the unpacked extension.
+The simpliest way to install the extension is to get it from the [Firefox web store](https://addons.mozilla.org/en-US/firefox/addon/slack-hide-typing/). Alternatively, you can clone this repository and load the unpacked extension.
 
 ## Security overview
 
