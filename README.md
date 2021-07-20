@@ -1,4 +1,4 @@
-# slack-hide-typing
+# slack-hide-typing-firefox
 Firefox extension to prevent Slack from sending a typing status to channels and private messages.
 
 ## Installation
